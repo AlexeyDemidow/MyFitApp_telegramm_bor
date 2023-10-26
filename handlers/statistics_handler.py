@@ -9,7 +9,7 @@ async def statistics(auth_token: str):
     today_date = str(date.today())
     async with aiohttp.ClientSession() as session:
         async with session.get(
-            f'{config.user_foodlist_api_url}{today_date}{config.today_statistics_api_url}',
+            f'{config.user_food_api_url}{today_date}{config.today_stats_api_url}',
             headers=headers,
         ) as response:
             return await response.json()
@@ -20,7 +20,7 @@ async def water_statistics(auth_token: str):
     today_date = str(date.today())
     async with aiohttp.ClientSession() as session:
         async with session.get(
-                f'{config.water_statistics_api_url}{today_date}/',
+                f'{config.water_stats_api_url}{today_date}/',
                 headers=headers,
         ) as response:
             return await response.json()

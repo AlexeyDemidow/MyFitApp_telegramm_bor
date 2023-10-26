@@ -8,13 +8,13 @@ class Settings(BaseSettings):
     bot_token: SecretStr
     admin_id: int
 
-    auth_api_url: str
+    bot_auth_api_url: str
     unauth_api_url: str
     foodlist_api_url: str
-    profile_api_url: str
-    user_foodlist_api_url: str
-    today_statistics_api_url: str
-    water_statistics_api_url: str
+    user_profile_api_url: str
+    user_food_api_url: str
+    today_stats_api_url: str
+    water_stats_api_url: str
 
     # Начиная со второй версии pydantic, настройки класса настроек задаются
     # через model_config
