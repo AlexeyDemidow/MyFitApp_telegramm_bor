@@ -5,8 +5,9 @@
 ---
 
 ## Описание проекта
-Проект является ботом-компаньоном для веб приложения MYFITAPP и позволяет просматривать статистику пользователя.  
-MYFITAPP: https://github.com/AlexeyDemidow/fitappDjangoProject
+Проект является ботом-компаньоном для веб приложения MYFITAPP и позволяет просматривать статистику пользователя.\  
+MYFITAPP: https://github.com/AlexeyDemidow/fitappDjangoProject  
+
 ---
 ### Реализовано
 
