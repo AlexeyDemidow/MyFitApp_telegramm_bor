@@ -13,13 +13,6 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.bot_token.get_secret_value())
 dp = Dispatcher()
 
-print(config.bot_auth_api_url)
-print(config.unauth_api_url)
-print(config.user_profile_api_url)
-print(config.user_food_api_url)
-print(config.today_stats_api_url)
-print(config.water_stats_api_url)
-
 # Запуск бота
 async def main():
     dp.startup.register(start_bot)

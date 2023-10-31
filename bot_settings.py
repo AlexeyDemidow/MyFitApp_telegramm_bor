@@ -10,7 +10,6 @@ class Settings(BaseSettings):
 
     bot_auth_api_url: str
     unauth_api_url: str
-    foodlist_api_url: str
     user_profile_api_url: str
     user_food_api_url: str
     today_stats_api_url: str
